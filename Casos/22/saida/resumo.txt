@@ -1,0 +1,34 @@
+Movimento 2 (s) pegou comida
+Movimento 5 (s) colidiu com a parede
+Movimento 7 (d) pegou comida
+Movimento 13 (a) pegou comida
+Movimento 16 (d) pegou comida
+Movimento 17 (w) pegou comida
+Movimento 19 (d) pegou comida
+Movimento 21 (a) pegou comida
+Movimento 23 (a) pegou comida
+Movimento 26 (w) pegou comida
+Movimento 30 (w) pegou comida
+Movimento 32 (d) pegou comida
+Movimento 36 (d) pegou comida
+Movimento 37 (d) pegou comida
+Movimento 40 (s) pegou comida
+Movimento 42 (d) pegou comida
+Movimento 43 (w) pegou comida
+Movimento 49 (d) pegou comida
+Movimento 50 (w) pegou comida
+Movimento 54 (d) colidiu com a parede
+Movimento 59 (s) pegou comida
+Movimento 63 (s) pegou comida
+Movimento 65 (s) pegou comida
+Movimento 67 (a) pegou comida
+Movimento 69 (a) pegou comida
+Movimento 73 (w) colidiu com a parede
+Movimento 78 (w) colidiu com a parede
+Movimento 80 (w) pegou comida
+Movimento 85 (s) pegou comida
+Movimento 86 (d) pegou comida
+Movimento 87 (s) pegou comida
+Movimento 96 (a) pegou comida
+Movimento 97 (s) pegou comida
+Movimento 102 (d) pegou comida

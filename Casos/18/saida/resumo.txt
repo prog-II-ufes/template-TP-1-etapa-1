@@ -1,0 +1,50 @@
+Movimento 1 (d) pegou comida
+Movimento 2 (w) pegou comida
+Movimento 3 (w) pegou comida
+Movimento 4 (a) pegou comida
+Movimento 5 (s) pegou comida
+Movimento 7 (w) pegou comida
+Movimento 8 (d) pegou comida
+Movimento 12 (d) pegou comida
+Movimento 13 (w) pegou comida
+Movimento 16 (d) pegou comida
+Movimento 20 (d) pegou comida
+Movimento 21 (s) pegou comida
+Movimento 22 (s) pegou comida
+Movimento 23 (s) pegou comida
+Movimento 24 (s) pegou comida
+Movimento 25 (s) pegou comida
+Movimento 26 (s) colidiu com a parede
+Movimento 27 (a) pegou comida
+Movimento 28 (w) pegou comida
+Movimento 29 (w) pegou comida
+Movimento 33 (a) pegou comida
+Movimento 34 (s) pegou comida
+Movimento 50 (w) pegou comida
+Movimento 51 (d) pegou comida
+Movimento 53 (a) pegou comida
+Movimento 54 (a) pegou comida
+Movimento 55 (a) pegou comida
+Movimento 56 (a) colidiu com a parede
+Movimento 57 (s) pegou comida
+Movimento 58 (s) pegou comida
+Movimento 59 (d) pegou comida
+Movimento 60 (w) pegou comida
+Movimento 63 (s) pegou comida
+Movimento 64 (d) pegou comida
+Movimento 66 (s) pegou comida
+Movimento 67 (d) pegou comida
+Movimento 68 (s) pegou comida
+Movimento 69 (a) pegou comida
+Movimento 72 (d) pegou comida
+Movimento 73 (d) pegou comida
+Movimento 74 (d) pegou comida
+Movimento 75 (d) pegou comida
+Movimento 76 (d) pegou comida
+Movimento 77 (d) pegou comida
+Movimento 78 (w) pegou comida
+Movimento 79 (a) pegou comida
+Movimento 82 (s) colidiu com a parede
+Movimento 83 (d) pegou comida
+Movimento 87 (a) pegou comida
+Movimento 87 (a) fim de jogo por encostar em um fantasma

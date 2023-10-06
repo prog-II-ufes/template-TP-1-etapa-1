@@ -1,0 +1,107 @@
+Movimento 4 (w) colidiu com a parede
+Movimento 5 (w) colidiu com a parede
+Movimento 10 (w) colidiu com a parede
+Movimento 13 (s) colidiu com a parede
+Movimento 14 (w) colidiu com a parede
+Movimento 15 (w) colidiu com a parede
+Movimento 18 (w) colidiu com a parede
+Movimento 24 (s) pegou comida
+Movimento 25 (a) pegou comida
+Movimento 26 (w) pegou comida
+Movimento 33 (s) colidiu com a parede
+Movimento 41 (s) colidiu com a parede
+Movimento 60 (w) colidiu com a parede
+Movimento 67 (w) colidiu com a parede
+Movimento 68 (w) colidiu com a parede
+Movimento 75 (w) colidiu com a parede
+Movimento 77 (w) colidiu com a parede
+Movimento 78 (a) pegou comida
+Movimento 79 (w) colidiu com a parede
+Movimento 80 (w) colidiu com a parede
+Movimento 81 (w) colidiu com a parede
+Movimento 85 (w) colidiu com a parede
+Movimento 86 (s) pegou comida
+Movimento 93 (w) colidiu com a parede
+Movimento 94 (w) colidiu com a parede
+Movimento 104 (w) colidiu com a parede
+Movimento 105 (w) colidiu com a parede
+Movimento 110 (d) pegou comida
+Movimento 114 (w) colidiu com a parede
+Movimento 128 (w) colidiu com a parede
+Movimento 131 (s) pegou comida
+Movimento 132 (s) colidiu com a parede
+Movimento 143 (s) colidiu com a parede
+Movimento 144 (s) colidiu com a parede
+Movimento 152 (w) colidiu com a parede
+Movimento 153 (w) colidiu com a parede
+Movimento 173 (w) colidiu com a parede
+Movimento 174 (a) colidiu com a parede
+Movimento 175 (a) colidiu com a parede
+Movimento 176 (a) colidiu com a parede
+Movimento 181 (d) colidiu com a parede
+Movimento 182 (a) colidiu com a parede
+Movimento 183 (d) colidiu com a parede
+Movimento 186 (d) colidiu com a parede
+Movimento 191 (a) colidiu com a parede
+Movimento 192 (a) colidiu com a parede
+Movimento 193 (a) colidiu com a parede
+Movimento 197 (w) colidiu com a parede
+Movimento 204 (d) pegou comida
+Movimento 207 (s) colidiu com a parede
+Movimento 208 (s) colidiu com a parede
+Movimento 209 (s) colidiu com a parede
+Movimento 219 (w) colidiu com a parede
+Movimento 222 (w) colidiu com a parede
+Movimento 223 (w) colidiu com a parede
+Movimento 224 (w) colidiu com a parede
+Movimento 232 (s) colidiu com a parede
+Movimento 247 (w) colidiu com a parede
+Movimento 250 (w) colidiu com a parede
+Movimento 256 (w) colidiu com a parede
+Movimento 257 (d) pegou comida
+Movimento 258 (s) colidiu com a parede
+Movimento 267 (w) colidiu com a parede
+Movimento 268 (w) colidiu com a parede
+Movimento 269 (w) colidiu com a parede
+Movimento 270 (w) colidiu com a parede
+Movimento 271 (w) colidiu com a parede
+Movimento 284 (d) colidiu com a parede
+Movimento 286 (d) colidiu com a parede
+Movimento 290 (a) pegou comida
+Movimento 301 (d) colidiu com a parede
+Movimento 302 (d) colidiu com a parede
+Movimento 306 (a) colidiu com a parede
+Movimento 307 (d) colidiu com a parede
+Movimento 308 (a) colidiu com a parede
+Movimento 309 (a) colidiu com a parede
+Movimento 310 (a) colidiu com a parede
+Movimento 311 (d) colidiu com a parede
+Movimento 315 (a) pegou comida
+Movimento 316 (a) colidiu com a parede
+Movimento 317 (w) pegou comida
+Movimento 319 (w) colidiu com a parede
+Movimento 321 (a) colidiu com a parede
+Movimento 329 (a) pegou comida
+Movimento 331 (d) colidiu com a parede
+Movimento 335 (s) pegou comida
+Movimento 336 (d) colidiu com a parede
+Movimento 337 (d) colidiu com a parede
+Movimento 342 (w) colidiu com a parede
+Movimento 343 (w) colidiu com a parede
+Movimento 344 (a) colidiu com a parede
+Movimento 345 (a) colidiu com a parede
+Movimento 348 (w) colidiu com a parede
+Movimento 351 (d) colidiu com a parede
+Movimento 352 (a) colidiu com a parede
+Movimento 353 (d) colidiu com a parede
+Movimento 354 (a) colidiu com a parede
+Movimento 355 (d) colidiu com a parede
+Movimento 356 (d) colidiu com a parede
+Movimento 357 (d) colidiu com a parede
+Movimento 358 (d) colidiu com a parede
+Movimento 363 (w) colidiu com a parede
+Movimento 366 (a) colidiu com a parede
+Movimento 367 (w) colidiu com a parede
+Movimento 370 (s) colidiu com a parede
+Movimento 371 (s) colidiu com a parede
+Movimento 371 (s) fim de jogo por encostar em um fantasma

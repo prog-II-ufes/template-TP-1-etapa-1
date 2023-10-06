@@ -1,0 +1,10 @@
+#########
+#   * I #
+# ### * #
+#     * #
+# #   #*#
+# ## ## #
+#  #  # #
+#>    C #
+#########
+Pac-Man comecara o jogo na linha 8 e coluna 2

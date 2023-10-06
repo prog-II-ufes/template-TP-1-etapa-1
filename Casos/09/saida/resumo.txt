@@ -1,0 +1,191 @@
+Movimento 22 (s) colidiu com a parede
+Movimento 24 (s) colidiu com a parede
+Movimento 31 (a) pegou comida
+Movimento 33 (s) pegou comida
+Movimento 39 (s) pegou comida
+Movimento 40 (a) colidiu com a parede
+Movimento 42 (w) pegou comida
+Movimento 48 (w) colidiu com a parede
+Movimento 50 (s) pegou comida
+Movimento 63 (d) pegou comida
+Movimento 73 (a) colidiu com a parede
+Movimento 77 (s) colidiu com a parede
+Movimento 78 (s) colidiu com a parede
+Movimento 86 (a) colidiu com a parede
+Movimento 88 (w) pegou comida
+Movimento 90 (a) colidiu com a parede
+Movimento 91 (a) colidiu com a parede
+Movimento 94 (a) colidiu com a parede
+Movimento 100 (a) colidiu com a parede
+Movimento 107 (a) colidiu com a parede
+Movimento 108 (a) colidiu com a parede
+Movimento 111 (a) colidiu com a parede
+Movimento 115 (d) colidiu com a parede
+Movimento 116 (d) colidiu com a parede
+Movimento 117 (d) colidiu com a parede
+Movimento 118 (s) colidiu com a parede
+Movimento 119 (a) pegou comida
+Movimento 123 (d) pegou comida
+Movimento 125 (a) pegou comida
+Movimento 126 (s) colidiu com a parede
+Movimento 128 (s) colidiu com a parede
+Movimento 130 (s) colidiu com a parede
+Movimento 132 (s) colidiu com a parede
+Movimento 137 (s) colidiu com a parede
+Movimento 139 (w) colidiu com a parede
+Movimento 140 (s) colidiu com a parede
+Movimento 144 (s) colidiu com a parede
+Movimento 145 (w) pegou comida
+Movimento 147 (s) colidiu com a parede
+Movimento 153 (s) colidiu com a parede
+Movimento 161 (s) colidiu com a parede
+Movimento 162 (s) colidiu com a parede
+Movimento 163 (s) colidiu com a parede
+Movimento 166 (w) colidiu com a parede
+Movimento 168 (s) colidiu com a parede
+Movimento 174 (w) colidiu com a parede
+Movimento 175 (w) colidiu com a parede
+Movimento 176 (s) colidiu com a parede
+Movimento 180 (w) colidiu com a parede
+Movimento 182 (s) colidiu com a parede
+Movimento 185 (s) colidiu com a parede
+Movimento 190 (d) colidiu com a parede
+Movimento 198 (s) colidiu com a parede
+Movimento 199 (d) colidiu com a parede
+Movimento 200 (s) colidiu com a parede
+Movimento 201 (s) colidiu com a parede
+Movimento 206 (a) colidiu com a parede
+Movimento 211 (a) colidiu com a parede
+Movimento 216 (d) colidiu com a parede
+Movimento 219 (d) colidiu com a parede
+Movimento 222 (d) colidiu com a parede
+Movimento 227 (a) colidiu com a parede
+Movimento 228 (a) colidiu com a parede
+Movimento 229 (a) colidiu com a parede
+Movimento 236 (a) colidiu com a parede
+Movimento 240 (a) colidiu com a parede
+Movimento 246 (s) colidiu com a parede
+Movimento 248 (s) pegou comida
+Movimento 249 (s) colidiu com a parede
+Movimento 251 (s) pegou comida
+Movimento 256 (w) colidiu com a parede
+Movimento 257 (d) pegou comida
+Movimento 258 (s) colidiu com a parede
+Movimento 260 (s) colidiu com a parede
+Movimento 261 (w) colidiu com a parede
+Movimento 274 (w) colidiu com a parede
+Movimento 275 (w) colidiu com a parede
+Movimento 276 (w) colidiu com a parede
+Movimento 277 (w) colidiu com a parede
+Movimento 280 (d) colidiu com a parede
+Movimento 282 (w) pegou comida
+Movimento 293 (w) pegou comida
+Movimento 295 (d) pegou comida
+Movimento 316 (w) colidiu com a parede
+Movimento 321 (w) pegou comida
+Movimento 326 (w) colidiu com a parede
+Movimento 327 (a) pegou comida
+Movimento 331 (w) colidiu com a parede
+Movimento 338 (w) colidiu com a parede
+Movimento 343 (a) colidiu com a parede
+Movimento 345 (a) colidiu com a parede
+Movimento 346 (s) colidiu com a parede
+Movimento 348 (a) colidiu com a parede
+Movimento 376 (w) colidiu com a parede
+Movimento 378 (w) colidiu com a parede
+Movimento 379 (w) colidiu com a parede
+Movimento 386 (w) colidiu com a parede
+Movimento 396 (a) colidiu com a parede
+Movimento 399 (s) colidiu com a parede
+Movimento 420 (s) pegou comida
+Movimento 422 (s) colidiu com a parede
+Movimento 426 (s) colidiu com a parede
+Movimento 447 (w) colidiu com a parede
+Movimento 448 (w) colidiu com a parede
+Movimento 452 (w) colidiu com a parede
+Movimento 459 (w) colidiu com a parede
+Movimento 460 (w) colidiu com a parede
+Movimento 506 (a) colidiu com a parede
+Movimento 519 (s) colidiu com a parede
+Movimento 539 (s) colidiu com a parede
+Movimento 540 (a) colidiu com a parede
+Movimento 541 (s) colidiu com a parede
+Movimento 543 (a) colidiu com a parede
+Movimento 557 (w) colidiu com a parede
+Movimento 559 (w) colidiu com a parede
+Movimento 560 (w) colidiu com a parede
+Movimento 586 (s) colidiu com a parede
+Movimento 591 (s) pegou comida
+Movimento 597 (a) colidiu com a parede
+Movimento 605 (s) colidiu com a parede
+Movimento 607 (s) colidiu com a parede
+Movimento 609 (a) pegou comida
+Movimento 615 (s) colidiu com a parede
+Movimento 617 (w) colidiu com a parede
+Movimento 619 (s) colidiu com a parede
+Movimento 621 (s) colidiu com a parede
+Movimento 623 (s) colidiu com a parede
+Movimento 624 (s) colidiu com a parede
+Movimento 625 (w) colidiu com a parede
+Movimento 628 (s) colidiu com a parede
+Movimento 632 (a) colidiu com a parede
+Movimento 633 (w) colidiu com a parede
+Movimento 636 (w) colidiu com a parede
+Movimento 638 (s) colidiu com a parede
+Movimento 642 (s) colidiu com a parede
+Movimento 643 (s) colidiu com a parede
+Movimento 644 (s) colidiu com a parede
+Movimento 647 (a) colidiu com a parede
+Movimento 650 (a) colidiu com a parede
+Movimento 651 (w) colidiu com a parede
+Movimento 652 (a) colidiu com a parede
+Movimento 653 (a) colidiu com a parede
+Movimento 654 (w) colidiu com a parede
+Movimento 665 (s) colidiu com a parede
+Movimento 676 (s) colidiu com a parede
+Movimento 691 (s) colidiu com a parede
+Movimento 692 (s) colidiu com a parede
+Movimento 693 (s) colidiu com a parede
+Movimento 695 (s) colidiu com a parede
+Movimento 697 (d) colidiu com a parede
+Movimento 707 (d) colidiu com a parede
+Movimento 708 (d) colidiu com a parede
+Movimento 710 (d) colidiu com a parede
+Movimento 711 (d) colidiu com a parede
+Movimento 718 (s) colidiu com a parede
+Movimento 720 (a) colidiu com a parede
+Movimento 721 (a) colidiu com a parede
+Movimento 722 (a) colidiu com a parede
+Movimento 727 (d) pegou comida
+Movimento 728 (s) colidiu com a parede
+Movimento 730 (s) colidiu com a parede
+Movimento 731 (w) colidiu com a parede
+Movimento 733 (s) colidiu com a parede
+Movimento 734 (w) colidiu com a parede
+Movimento 736 (w) colidiu com a parede
+Movimento 737 (w) colidiu com a parede
+Movimento 739 (s) colidiu com a parede
+Movimento 742 (w) colidiu com a parede
+Movimento 743 (w) colidiu com a parede
+Movimento 747 (s) colidiu com a parede
+Movimento 748 (s) colidiu com a parede
+Movimento 751 (s) colidiu com a parede
+Movimento 753 (s) colidiu com a parede
+Movimento 755 (w) colidiu com a parede
+Movimento 757 (s) colidiu com a parede
+Movimento 761 (s) colidiu com a parede
+Movimento 762 (w) colidiu com a parede
+Movimento 766 (d) colidiu com a parede
+Movimento 774 (d) pegou comida
+Movimento 777 (w) colidiu com a parede
+Movimento 778 (a) pegou comida
+Movimento 791 (a) pegou comida
+Movimento 793 (w) colidiu com a parede
+Movimento 796 (w) colidiu com a parede
+Movimento 800 (w) colidiu com a parede
+Movimento 802 (w) colidiu com a parede
+Movimento 804 (w) colidiu com a parede
+Movimento 805 (w) colidiu com a parede
+Movimento 806 (w) colidiu com a parede
+Movimento 815 (w) colidiu com a parede
+Movimento 819 (a) pegou comida

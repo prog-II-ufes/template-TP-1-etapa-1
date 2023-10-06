@@ -1,0 +1,1042 @@
+Estado do jogo apos o movimento 'd':
+##########
+#      *P#
+#  >   # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      #P#
+#  >** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+# > ** #P#
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+# >    # #
+#   ** # #
+# *    #P#
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+# >    * #
+#      # #
+#   ** # #
+# *    # #
+# *#*#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+# >    # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#>     # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#>     * #
+#      # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#>     * #
+#      # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'a':
+##########
+#>     * #
+#      # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'a':
+##########
+#>     * #
+#      # #
+#   ** # #
+# *    # #
+# *#*#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#>     * #
+#      # #
+#   ** # #
+# *    #P#
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'd':
+##########
+# >    * #
+#      # #
+#   ** #P#
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+# >    * #
+#      #P#
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'd':
+##########
+#  >   *P#
+#      # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#  >   * #
+#      #P#
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#  >   # #
+#   ** #P#
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#  >** # #
+# *    #P#
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#  >   # #
+#   ** # #
+# *    # #
+# *#*#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#   >  # #
+#   ** # #
+# *    # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 0
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#   >* # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#   >  # #
+#    * # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#   >* # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#    * # #
+# * >  # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+#    * # #
+# *  > # #
+# *#*#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#    * # #
+# *  > #P#
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#    * #P#
+# *  > # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 1
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      #P#
+#    > # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'a':
+##########
+#      *P#
+#      # #
+#   >  # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#   >  #P#
+#      # #
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#    > # #
+#      #P#
+# *    # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#    > # #
+# *    #P#
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+# *  > # #
+# *#*#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+# *  > # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+# *  > # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#      # #
+# * >  # #
+# *#*#   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#      # #
+# *>   # #
+# *#*#   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+#      # #
+# * >  # #
+# *#*#   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 2
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+# *    # #
+# *#>#  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 3
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#      # #
+# *    #P#
+# *#>#   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 3
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+#      #P#
+# * >  # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 3
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      #P#
+#      # #
+# *>   # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 3
+
+Estado do jogo apos o movimento 'a':
+##########
+#      *P#
+#      # #
+#      # #
+# >    # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      #P#
+# >    # #
+#      # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+# >    # #
+#      #P#
+#      # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'w':
+##########
+# >    * #
+#      # #
+#      # #
+#      #P#
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+# >    # #
+#      # #
+#      # #
+# *# #  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+# >    # #
+#      # #
+# *# #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#>     # #
+#      # #
+# *# #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+# >    # #
+#      # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+# >    # #
+#      # #
+#      # #
+# *# #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+# >    # #
+#      # #
+# *# #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+# >    # #
+# *# #  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+# >    # #
+#      #P#
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      #P#
+# >    # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      #P#
+#      # #
+#  >   # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 'a':
+##########
+#      *P#
+#      # #
+#      # #
+# >    # #
+# *# #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 4
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      #P#
+#      # #
+#      # #
+# ># #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#      #P#
+#      # #
+#> # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+#      # #
+#>     #P#
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+#      # #
+#> # #  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+#      # #
+#      # #
+# ># #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+#      # #
+# >    # #
+#  # #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+#      # #
+# ># #   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+#      # #
+# ># #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+#      # #
+# >    # #
+#  # #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+#      # #
+#  >   # #
+#  # #  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#      # #
+#  >   #P#
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#      #P#
+# >    # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      #P#
+#      # #
+#  >   # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'a':
+##########
+#      *P#
+#      # #
+#      # #
+# >    # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      #P#
+#      # #
+#  >   # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#      # #
+#  >   #P#
+#      # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#  >   # #
+#      # #
+#      #P#
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#   >  # #
+#      # #
+#      # #
+#  # #  P#
+#*## ## *#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 's':
+##########
+#      * #
+#      # #
+#   >  # #
+#      # #
+#  # #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'd':
+##########
+#      * #
+#      # #
+#    > # #
+#      # #
+#  # #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#   >  # #
+#      # #
+#  # #   #
+#*## ## *#
+#  # #   #
+#    *  P#
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'a':
+##########
+#      * #
+#      # #
+#  >   # #
+#      # #
+#  # #   #
+#*## ## *#
+#  # #  P#
+#    *   #
+##########
+Pontuacao: 5
+
+Estado do jogo apos o movimento 'w':
+##########
+#      * #
+#  >   # #
+#      # #
+#      # #
+#  # #   #
+#*## ## P#
+#  # #   #
+#    *   #
+##########
+Pontuacao: 5
+
+Game over!
+Pontuacao final: 5
