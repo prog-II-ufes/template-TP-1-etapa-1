@@ -49,6 +49,7 @@ void AtualizaPosicao(tPosicao* posicaoAtual, tPosicao* posicaoNova);
 
 /**
  * Verifica se 2 posições são iguais comparando seus atributos.
+ * Retorna verdadeiro caso são iguais, e falso caso contrário.
  * \param posicao1 posição 1
  * \param posicao2 posição 2
  */
