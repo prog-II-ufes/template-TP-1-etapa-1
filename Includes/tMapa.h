@@ -66,7 +66,7 @@ tTunel* ObtemTunelMapa(tMapa* mapa);
 /**
  * Dado o mapa e uma posição, retorna o item do mapa relacionado a aquela posição.
  * Caso o mapa ou o grid do mapa seja NULL, ou a posição esteja fora dos limites do mapa,
- * retorna um char vazio ''.
+ * retorna string vazia "".
  * \param mapa mapa
  * \param posicao posicao do item a ser retornado
  */
