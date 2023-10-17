@@ -91,7 +91,7 @@ bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao);
  * \param posicao posicao do item
  * \param item posicao item que vai atualizar o mapa
  */
-bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item);
+void AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item);
 
 /**
  * Verifica se o mapa possui tunel ou não
