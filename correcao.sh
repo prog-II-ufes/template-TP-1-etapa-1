@@ -384,30 +384,6 @@ script_com_pesos()
                         files_to_compile+=("$element")
                     done
 
-                    declare -a student_extra_src_files
-                    if [[ "$FIXED_INTERFACE" == false ]] ; then
-                        for filepath in "$STUDENT_ANSWER_FOLDER/"*.c; do
-                            if [[ -f "$filepath" ]]; then
-                                filename=$(basename "$filepath" .c)
-                                found=false
-                                for gab_src_file in "${src_files_names[@]}"; do
-                                    if [[ "$gab_src_file" = "$filename" ]]; then
-                                        found=true
-                                        break
-                                    fi
-                                done
-                                if [ "$found" = "false" ]; then
-                                    student_extra_src_files+=("$filename")
-                                    files_to_compile+=("$filename")
-                                fi
-                            fi
-                        done
-                    fi
-                    extra_files_array_size=${#student_extra_src_files[@]}
-                    extra_n_compilation=$((n_folders_to_compile * extra_files_array_size))
-                    # student_n_compilations=$((n_compilations + extra_n_compilation))
-                    student_n_compilations=$((n_compilations))
-
                     declare -A test_cases_results
 
                     test_cases_results["student_name"]=$student_name
@@ -417,7 +393,6 @@ script_com_pesos()
                     test_cases_results["nota_compilacoes_corretas"]=0
                     test_cases_results["linkagens_corretas"]=0
                     test_cases_results["nota_linkagens_corretas"]=0
-                    test_cases_results["student_n_compilations"]=$student_n_compilations
                     
                     declare -A test_cases_pontuacoes
                     test_cases_pontuacoes["student_name"]=$student_name
@@ -575,6 +550,68 @@ script_com_pesos()
                             cp $STUDENT_ANSWER_FOLDER/$src_file_name.c $FILE_NAME_FOLDER
                         fi
                     done
+
+
+                    declare -a student_extra_src_files
+                    if [[ "$FIXED_INTERFACE" == false ]] ; then
+                        for filepath in "$STUDENT_ANSWER_FOLDER/"*.c; do
+                            if [[ -f "$filepath" ]]; then
+                                filename=$(basename "$filepath" .c)
+                                found=false
+                                for gab_src_file in "${src_files_names[@]}"; do
+                                    if [[ "$gab_src_file" = "$filename" ]]; then
+                                        found=true
+                                        break
+                                    fi
+                                done
+                                if [ "$found" = "false" ]; then
+                                    student_extra_src_files+=("$filename")
+                                    files_to_compile+=("$filename")
+
+                                    for gab_file in "${src_files_names[@]}"; do
+                                        FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
+                                        echo "cp $filepath $FILE_NAME_FOLDER"
+                                        cp $filepath $FILE_NAME_FOLDER
+                                    done
+
+                                    cp $filepath $STUDENT_RESULT_FOLDER/completo
+                                    cp $filepath $STUDENT_RESULT_FOLDER/main
+                                fi
+                            fi
+                        done
+
+                        for filepath in "$STUDENT_ANSWER_FOLDER/"*.h; do
+                            if [[ -f "$filepath" ]]; then
+                                filename=$(basename "$filepath" .h)
+                                found=false
+                                for gab_src_file in "${src_files_names[@]}"; do
+                                    if [[ "$gab_src_file" = "$filename" ]]; then
+                                        found=true
+                                        break
+                                    fi
+                                done
+                                if [ "$found" = "false" ]; then
+                                    for gab_file in "${src_files_names[@]}"; do
+                                        FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
+                                        echo "cp $filepath $FILE_NAME_FOLDER"
+                                        cp $filepath $FILE_NAME_FOLDER
+                                    done
+
+                                    cp $filepath $STUDENT_RESULT_FOLDER/completo
+                                    cp $filepath $STUDENT_RESULT_FOLDER/main
+                                fi
+                            fi
+                        done
+                    fi
+
+                    extra_files_array_size=${#student_extra_src_files[@]}
+                    extra_n_compilation=$((n_folders_to_compile * extra_files_array_size))
+                    # student_n_compilations=$((n_compilations + extra_n_compilation))
+                    student_n_compilations=$((n_compilations))
+
+                    test_cases_results["student_n_compilations"]=$student_n_compilations
+
+
                     echo -e " - Arquivos copiados: ok!"
                     TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG} - Arquivos copiados: ok!\n"
 
