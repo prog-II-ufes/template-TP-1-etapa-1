@@ -143,16 +143,14 @@ script_com_pesos()
         if [ -d "$DIR_INCLUDES" ] && [ -d "$DIR_GAB_SRC" ]; then
 
             if [ "$HEADER_FILES_EXIST" = "true" ]; then
-
                 for fileH in "${arquivosHeaderDisponibilizados[@]}"; do
                     if [[ "$fileH" != "main" ]]; then
-                        if [[ -f "$DIR_GAB_SRC/$fileH.h" ]]; then
-                            cp $DIR_GAB_SRC/$fileH.h $DIR_INCLUDES
+                        if [[ -f "$DIR_GAB_SRC/$fileH" ]]; then
+                            cp $DIR_GAB_SRC/$fileH $DIR_INCLUDES
                         fi
                     fi
                 done
 
-                cp $DIR_GAB_SRC/*.h $DIR_INCLUDES
                 echo " - Arquivos .h do professor da pasta $DIR_GAB_SRC copiados para a pasta $DIR_INCLUDES com sucesso!"
                 TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG} - Arquivos .h do professor da pasta $DIR_GAB_SRC copiados para a pasta $DIR_INCLUDES com sucesso!\n"
             else
@@ -169,7 +167,8 @@ script_com_pesos()
             for src_file in "${src_files_array[@]}"; do
                 x=${src_file%.c}  # x sera' o nome do arquivo sem a extensao .c
                 raw_file_name=${x##*/}  # raw_file_name sera' o nome do arquivo puro, sem os diretorios que contem ele
-                if contains "$raw_file_name"; then
+                echo "raw_file_name: $raw_file_name"
+                if contains "$raw_file_name.h" || [[ "$raw_file_name" == "main" ]] ; then
                     gab_src_files_names+=("$raw_file_name")
                     src=$DIR_GAB_SRC/$raw_file_name.c
                     out=$DIR_GAB_OBJ/$raw_file_name.o
@@ -182,8 +181,9 @@ script_com_pesos()
                     fi
                 fi
             done
-
+            
             output=$(gcc -Wall -o $DIR_GAB_OBJ/prog $DIR_GAB_OBJ/*.o -lm 2>&1)
+            echo "$output"
             if [ $? -ne 0 ]; then 
                 echo -e "   - Arquivos Linkados: Erro! Binário prog não gerado."
                 TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Arquivos Linkados: Erro! Binário prog não gerado.\n"
