@@ -510,6 +510,47 @@ script_com_pesos()
                     echo -e "\nCOPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:"
                     TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}\nCOPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:\n"
 
+                    # for src_file_name in "${src_files_names[@]}"; do
+                    #     echo " - Pasta $src_file_name:"
+                    #     TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG} - Pasta $src_file_name:\n"
+                    #     FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$src_file_name
+                        
+                    #     echo "   - Copiando os $DIR_GAB_CASOS de teste para a pasta $FILE_NAME_FOLDER"
+                    #     TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os $DIR_GAB_CASOS de teste para a pasta $FILE_NAME_FOLDER\n"
+                    #     cp -r $DIR_GAB_CASOS $FILE_NAME_FOLDER
+
+                    #     if find "$STUDENT_ANSWER_FOLDER" -maxdepth 1 -type f -name "*.h" | read; then
+                    #         if find "$DIR_GAB_INCLUDES" -maxdepth 1 -type f -name "*.h" | read; then
+                    #             if [[ "$src_file_name" != "completo" ]] ; then
+                    #                 echo "   - Copiando os $DIR_GAB_INCLUDES/*.h do professor para a pasta $FILE_NAME_FOLDER"
+                    #                 TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os '$DIR_GAB_INCLUDES/*.h' do professor para a pasta $FILE_NAME_FOLDER\n"
+                    #                 cp $DIR_GAB_INCLUDES/*.h $FILE_NAME_FOLDER
+                    #             fi
+                    #         fi
+                            
+                    #         if [[ "$src_file_name" == "main" ]] || [[ "$src_file_name" == "completo" ]] ; then
+                    #             echo "   - Copiando os $STUDENT_ANSWER_FOLDER/*.h do aluno para a pasta $FILE_NAME_FOLDER"
+                    #             TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os '$STUDENT_ANSWER_FOLDER/*.h' do aluno para a pasta $FILE_NAME_FOLDER\n"
+                    #             cp $STUDENT_ANSWER_FOLDER/*.h $FILE_NAME_FOLDER
+                                
+                    #         else
+                    #             echo "   - Copiando os $STUDENT_ANSWER_FOLDER/$src_file_name.h do aluno para a pasta $FILE_NAME_FOLDER"
+                    #             TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os '$STUDENT_ANSWER_FOLDER/src_file_name.h' do aluno para a pasta $FILE_NAME_FOLDER\n"
+                    #             cp $STUDENT_ANSWER_FOLDER/$src_file_name.h $FILE_NAME_FOLDER
+                    #         fi
+                    #     fi
+
+                    #     if [[ "$src_file_name" == "main" ]] || [[ "$src_file_name" == "completo" ]]; then
+                    #         echo "   - Copiando os $STUDENT_ANSWER_FOLDER/*.c do aluno para a pasta $FILE_NAME_FOLDER"
+                    #         TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os '$STUDENT_ANSWER_FOLDER/*.c' do aluno para a pasta $FILE_NAME_FOLDER\n"
+                    #         cp $STUDENT_ANSWER_FOLDER/*.c $FILE_NAME_FOLDER
+                    #     else
+                    #         echo "   - Copiando os $STUDENT_ANSWER_FOLDER/$src_file_name.c do aluno para a pasta $FILE_NAME_FOLDER"
+                    #         TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Copiando os '$STUDENT_ANSWER_FOLDER/src_file_name.c' do aluno para a pasta $FILE_NAME_FOLDER\n"
+                    #         cp $STUDENT_ANSWER_FOLDER/$src_file_name.c $FILE_NAME_FOLDER
+                    #     fi
+                    # done
+
                     for src_file_name in "${src_files_names[@]}"; do
                         echo " - Pasta $src_file_name:"
                         TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG} - Pasta $src_file_name:\n"
@@ -552,8 +593,10 @@ script_com_pesos()
                     done
 
 
+
                     declare -a student_extra_src_files
                     if [[ "$FIXED_INTERFACE" == false ]] ; then
+                        echo " - Copiando Arquivos Extras do Aluno:"
                         for filepath in "$STUDENT_ANSWER_FOLDER/"*.c; do
                             if [[ -f "$filepath" ]]; then
                                 filename=$(basename "$filepath" .c)
@@ -568,13 +611,15 @@ script_com_pesos()
                                     student_extra_src_files+=("$filename")
                                     files_to_compile+=("$filename")
 
-                                    for gab_file in "${src_files_names[@]}"; do
-                                        FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
-                                        echo "cp $filepath $FILE_NAME_FOLDER"
-                                        cp $filepath $FILE_NAME_FOLDER
-                                    done
+                                    # for gab_file in "${src_files_names[@]}"; do
+                                    #     FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
+                                    #     echo "cp $filepath $FILE_NAME_FOLDER"
+                                    #     cp $filepath $FILE_NAME_FOLDER
+                                    # done
 
+                                    echo "   - Copiando $filepath para $FILE_NAME_FOLDER/completo"
                                     cp $filepath $STUDENT_RESULT_FOLDER/completo
+                                    echo "   - Copiando $filepath para $FILE_NAME_FOLDER/main"
                                     cp $filepath $STUDENT_RESULT_FOLDER/main
                                 fi
                             fi
@@ -591,13 +636,15 @@ script_com_pesos()
                                     fi
                                 done
                                 if [ "$found" = "false" ]; then
-                                    for gab_file in "${src_files_names[@]}"; do
-                                        FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
-                                        echo "cp $filepath $FILE_NAME_FOLDER"
-                                        cp $filepath $FILE_NAME_FOLDER
-                                    done
+                                    # for gab_file in "${src_files_names[@]}"; do
+                                    #     FILE_NAME_FOLDER=$STUDENT_RESULT_FOLDER/$gab_file
+                                    #     echo "cp $filepath $FILE_NAME_FOLDER"
+                                    #     cp $filepath $FILE_NAME_FOLDER
+                                    # done
 
+                                    echo "   - Copiando $filepath para $FILE_NAME_FOLDER/completo"
                                     cp $filepath $STUDENT_RESULT_FOLDER/completo
+                                    echo "   - Copiando $filepath para $FILE_NAME_FOLDER/main"
                                     cp $filepath $STUDENT_RESULT_FOLDER/main
                                 fi
                             fi
