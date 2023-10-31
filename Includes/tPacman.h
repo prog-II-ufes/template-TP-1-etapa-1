@@ -143,7 +143,8 @@ void MataPacman(tPacman* pacman);
 
 /**
  * Caso o pacman seja diferente de NULL, libera o espaço 
- * alocado para a estrutura tPacman
+ * alocado para a estrutura tPacman.
+ * Sempre verificar se é NULL antes de dar free.
  * 
  * \param pacman pacman
  */

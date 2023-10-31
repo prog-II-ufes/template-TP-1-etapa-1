@@ -57,7 +57,7 @@ bool SaoIguaisPosicao(tPosicao* posicao1, tPosicao* posicao2);
 
 /**
  * Libera o espaço alocado para a estrutura tPosicao.
- * Verifica se a posição é NULL antes de desalocar.
+ * Sempre verificar se é NULL antes de dar free.
  * 
  * \param posicao posicao
  */

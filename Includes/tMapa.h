@@ -154,7 +154,7 @@ void EntraTunelMapa(tMapa* mapa, tPosicao* posicao);
 
 /**
  * Libera o espaço alocado para a estrutura tMapa.
- * Apenas desaloca o mapa caso o mapa seja diferente de NULL.
+ * Sempre verificar se é NULL antes de dar free.
  * \param mapa mapa
  */
 void DesalocaMapa(tMapa* mapa);
