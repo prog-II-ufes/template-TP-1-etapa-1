@@ -56,7 +56,8 @@ void AtualizaPosicao(tPosicao* posicaoAtual, tPosicao* posicaoNova);
 bool SaoIguaisPosicao(tPosicao* posicao1, tPosicao* posicao2);
 
 /**
- * Libera o espaço alocado para a estrutura tPosicao
+ * Libera o espaço alocado para a estrutura tPosicao.
+ * Verifica se a posição é NULL antes de desalocar.
  * 
  * \param posicao posicao
  */
