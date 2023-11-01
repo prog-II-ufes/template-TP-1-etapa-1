@@ -670,7 +670,7 @@ script_com_pesos()
                     compilation_errors=0
                     correct_compilations=0
                     
-                    echo "cd $STUDENT_RESULT_FOLDER"
+                    # echo "cd $STUDENT_RESULT_FOLDER"
                     cd $STUDENT_RESULT_FOLDER
                     for src_file_dir in "${src_files_names[@]}"; do
                         echo "   - Compilando a pasta $src_file_dir do aluno, gerando os .o's"
@@ -814,13 +814,24 @@ script_com_pesos()
                                 # output=$(timeout 5 valgrind $valgrind_args $binary < $txt_input_file > $output 2>&1)
 
                                 if [ "$IGNORE_VALGRIND" = "false" ]; then
-                                    output=$(timeout 50 valgrind $valgrind_args $binary $directory_path < $input_file > $output 2>&1)
+                                    run_output=$(timeout 50 valgrind $valgrind_args $binary $directory_path < $input_file > $output 2>&1)
                                 else
-                                    output=$(timeout 50 $binary $directory_path < $input_file > $output 2>&1)
+                                    run_output=$(timeout 50 $binary $directory_path < $input_file > $output 2>&1)
                                 fi
 
-                                # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" -exec mv {} "${DIR_CASE}/saida/" \;
-                                find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
+                                # touch "${DIR_CASE}/saida/ranking.txt"
+
+
+                                # verificando se o programa já gerou gerou os arquivos dentro da pasta saida
+                                FILES=$(find "${DIR_CASE}/saida/" -maxdepth 1 -type f -name "*.txt" | grep -v "saida.txt")
+
+                                if [[ -z "$FILES" ]]; then
+                                    # não gerou direto la, então copia pra la
+                                    find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;                                    
+                                fi
+
+                                # # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" -exec mv {} "${DIR_CASE}/saida/" \;
+                                # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
 
                                 # echo "output: $output"
                                 # output=$(valgrind $valgrind_args $binary < $DIR_CASE/in.txt > "out.txt" 2>&1)
