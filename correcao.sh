@@ -827,8 +827,20 @@ script_com_pesos()
 
                                 if [[ -z "$FILES" ]]; then
                                     # não gerou direto la, então copia pra la
-                                    find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;                                    
+                                    find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
                                 fi
+
+                                if ls *.txt 2>/dev/null; then
+                                    # Filter out pontuacao.txt and log.txt
+                                    files=$(ls *.txt | grep -vE 'pontuacao.txt|log.txt')
+                                    if [ -n "$files" ]; then
+                                        # echo "There are other .txt files in the directory."
+                                        find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
+                                    fi
+                                fi
+
+
+                                # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
 
                                 # # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" -exec mv {} "${DIR_CASE}/saida/" \;
                                 # find "." -maxdepth 1 -type f -name "*.txt" ! -name "log.txt" ! -name "pontuacao.txt" -exec mv {} "${DIR_CASE}/saida/" \;
